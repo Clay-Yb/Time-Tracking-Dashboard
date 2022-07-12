@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="profile_div">
+            <div class="profile_top">
+                <img src="./images/image-jeremy.png" alt="" class="profile_img">
+
+                <div class="profile_data">
+                    <p class="profile_info">
+                        Report for
+                    </p>
+                    <h3 class="profile_name">
+                        Jermy Robson
+                    </h3>
+                </div>
+            </div>
+
+            <div class="profile_btm">
+                <a href="#" class="date_link" id="daily">
+                    Daily
+                </a>
+                <a href="#" class="date_link" id="weekly">
+                    Weekly
+                </a>
+                <a href="#" class="date_link" id="monthly">
+                    Monthly
+                </a>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="card_box">
+                <div class="card_top">
+                </div>
+                <div class="card_btm">
+                    <div class="flex_1">
+                        <h3 class="card_title">
+                            Work
+                        </h3>
+                        <img src="./images/icon-ellipsis.svg" alt="" class="card_dot_img">
+                    </div>
+                    <div class="flex_2">
+                        <h1 class="daily_hrs" id="work_daily_hrs">
+
+                        </h1>
+                        <span class="daily_prev_hrs">
+                            Last Week - <span id="work_daily_prev_hrs">
+
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_box">
+                <div class="card_top">
+                </div>
+                <div class="card_btm">
+                    <div class="flex_1">
+                        <h3 class="card_title">
+                            Play
+                        </h3>
+                        <img src="./images/icon-ellipsis.svg" alt="" class="card_dot_img">
+                    </div>
+                    <div class="flex_2">
+                        <h1 class="daily_hrs" id="play_daily_hrs">
+
+                        </h1>
+                        <span class="daily_prev_hrs">
+                            Last Week - <span id="play_daily_prev_hrs">
+
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_box">
+                <div class="card_top">
+                </div>
+                <div class="card_btm">
+                    <div class="flex_1">
+                        <h3 class="card_title">
+                            Study
+                        </h3>
+                        <img src="./images/icon-ellipsis.svg" alt="" class="card_dot_img">
+                    </div>
+                    <div class="flex_2">
+                        <h1 class="daily_hrs" id="study_daily_hrs">
+
+                        </h1>
+                        <span class="daily_prev_hrs">
+                            Last Week - <span id="study_daily_prev_hrs">
+
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_box">
+                <div class="card_top">
+                </div>
+                <div class="card_btm">
+                    <div class="flex_1">
+                        <h3 class="card_title">
+                            Exercise
+                        </h3>
+                        <img src="./images/icon-ellipsis.svg" alt="" class="card_dot_img">
+                    </div>
+                    <div class="flex_2">
+                        <h1 class="daily_hrs" id="exe_daily_hrs">
+
+                        </h1>
+                        <span class="daily_prev_hrs">
+                            Last Week - <span id="exe_daily_prev_hrs">
+
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_box">
+                <div class="card_top">
+                </div>
+                <div class="card_btm">
+                    <div class="flex_1">
+                        <h3 class="card_title">
+                            Social
+                        </h3>
+                        <img src="./images/icon-ellipsis.svg" alt="" class="card_dot_img">
+                    </div>
+                    <div class="flex_2">
+                        <h1 class="daily_hrs" id="social_daily_hrs">
+
+                        </h1>
+                        <span class="daily_prev_hrs">
+                            Last Week - <span id="social_daily_prev_hrs">
+
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_box">
+                <div class="card_top">
+                </div>
+                <div class="card_btm">
+                    <div class="flex_1">
+                        <h3 class="card_title">
+                            Self Care
+                        </h3>
+                        <img src="./images/icon-ellipsis.svg" alt="" class="card_dot_img">
+                    </div>
+                    <div class="flex_2">
+                        <h1 class="daily_hrs" id="self_daily_hrs">
+
+                        </h1>
+                        <span class="daily_prev_hrs">
+                            Last Week - <span id="self_daily_prev_hrs">
+
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Main js   -->
+    <script src="./main.js"></script>
+</body>
+
+</html>
